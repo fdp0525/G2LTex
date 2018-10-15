@@ -1,0 +1,28 @@
+%YAML:1.0
+depth_fx: 540.69
+depth_fy: 540.69
+depth_cx: 479.75
+depth_cy: 269.75
+depth_width: 960
+depth_height: 540
+
+RGB_fx: 1081.37
+RGB_fy: 1081.37
+RGB_cx: 959.5
+RGB_cy: 539.5
+RGB_width: 1920
+RGB_height: 1080
+
+
+Global_Iterations: 300
+Lobal_Iterations: 20
+
+global_depth_weight: 100
+global_RGB_weight: 1
+
+local_RGB_weight: 1
+local_edge_wight: 1
+local_Reg_wight: 100
+
+write_view_selection_model: 1 
+global_color_correcting: 1
