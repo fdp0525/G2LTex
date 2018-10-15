@@ -18,7 +18,7 @@ How install and run this code.
 git clone https://github.com/fdp0525/G2LTex.git
 cd G2LTex/bin
 ./G2LTex ../Data/bloster/textureimages ../Data/bloster/bloster.ply
-
+```
 ##2. Input Format
 -Color frames (color_XX.jpg): RGB, 24-bit, JPG
 -Depth frames (depth-XX.png): depth (mm), 16-bit, PNG (invalid depth is set to 0)
