@@ -19,13 +19,13 @@ git clone https://github.com/fdp0525/G2LTex.git
 cd G2LTex/bin
 ./G2LTex ../Data/bloster/textureimages ../Data/bloster/bloster.ply
 ```
-##2. Input Format
+## 2. Input Format
 -Color frames (color_XX.jpg): RGB, 24-bit, JPG
 -Depth frames (depth-XX.png): depth (mm), 16-bit, PNG (invalid depth is set to 0)
 -Camera poses (color_XX.cam): world-to-camera [tx, ty, tz, R00, R01, R02, R10, R11, R12, R20, R21, R22]
 
 
-##3. Dependencies
+## 3. Dependencies
 The code and the build system have the following prerequisites:
 - ubuntu 16.04
 - gcc (5.4.0)
