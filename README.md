@@ -13,6 +13,11 @@ Params explanation:
 -`PLY`: The Reconstrucion model for texture mapping.
 -`DIR`: The texture image directory, include rgb images, depth images, and camera trajectory.
 
+The parameters of the camera and the system can be set in the configure file.
+```
+Config/config.yml
+```
+
 How install and run this code.
 ```
 git clone https://github.com/fdp0525/G2LTex.git
