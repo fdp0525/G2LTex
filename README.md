@@ -56,7 +56,9 @@ RGB_cx: 959.5
 RGB_cy: 539.5
 RGB_width: 1920
 RGB_height: 1080
-\cdot
+.
+.
+.
 ```
 ## 5. results
 Some results are shown under the folder ```results/```.
