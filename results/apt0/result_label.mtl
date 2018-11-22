@@ -1,0 +1,24 @@
+newmtl material0000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 1.000000
+illum 1
+Ns 1.000000
+map_Kd result_label_material0000_map_Kd.png
+newmtl material0001
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 1.000000
+illum 1
+Ns 1.000000
+map_Kd result_label_material0001_map_Kd.png
+newmtl material0002
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Tr 1.000000
+illum 1
+Ns 1.000000
+map_Kd result_label_material0002_map_Kd.png
