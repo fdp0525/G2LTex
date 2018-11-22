@@ -39,6 +39,9 @@ The code and the build system have the following prerequisites:
 - png12
 - jpeg
 
+## Result
+Some results are shown under the folder Results.
+
 # Publication
 If you find this deome valuable for your reseach, please cite our works.
 
