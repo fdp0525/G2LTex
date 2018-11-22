@@ -40,9 +40,26 @@ The code and the build system have the following prerequisites:
 - jpeg
 
 ## 4. Parameters
-All the parameters can be set in file '''Config/config.yml'''.
+All the parameters can be set in file ```Config/config.yml``` as follows:
+```
+%YAML:1.0
+depth_fx: 540.69
+depth_fy: 540.69
+depth_cx: 479.75
+depth_cy: 269.75
+depth_width: 960
+depth_height: 540
+
+RGB_fx: 1081.37
+RGB_fy: 1081.37
+RGB_cx: 959.5
+RGB_cy: 539.5
+RGB_width: 1920
+RGB_height: 1080
+\cdot
+```
 ## 5. results
-Some results are shown under the folder '''results/'''.
+Some results are shown under the folder ```results/```.
 
 # Publication
 If you find this deome valuable for your reseach, please cite our works.
