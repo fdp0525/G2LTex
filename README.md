@@ -39,8 +39,10 @@ The code and the build system have the following prerequisites:
 - png12
 - jpeg
 
-## Result
-Some results are shown under the folder Results.
+## 4. Parameters
+All the parameters can be set in file '''Config/config.yml'''.
+## 5. results
+Some results are shown under the folder '''results/'''.
 
 # Publication
 If you find this deome valuable for your reseach, please cite our works.
