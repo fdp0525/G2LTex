@@ -40,7 +40,7 @@ The code and the build system have the following prerequisites:
 - jpeg
 
 ## 4. Parameters
-All the parameters can be set in file ```Config/config.yml``` as follows:
+All the parameters can be set in the file ```Config/config.yml``` as follows:
 ```
 %YAML:1.0
 depth_fx: 540.69
@@ -64,7 +64,7 @@ RGB_height: 1080
 Some results are shown under the folder ```results/```.
 
 # Publication
-If you find this deome valuable for your reseach, please cite our works.
+If you find this demo valuable for your reseach, please cite our work:
 
 > Y. Fu, Q. Yan, L. Yang, J. Liao and X. Chun. Texture Mapping for 3D Reconstruction with RGB-D Sensor. In CVPR. 2018.
 
