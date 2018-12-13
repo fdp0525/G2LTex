@@ -1,4 +1,21 @@
 %YAML:1.0
+
+%Apt0
+%depth_fx: 583
+%depth_fy: 583
+%depth_cx: 320
+%depth_cy: 240
+%depth_width: 640
+%depth_height: 480
+
+%RGB_fx: 582.871
+%RGB_fy: 582.871
+%RGB_cx: 320
+%RGB_cy: 240
+%RGB_width: 640
+%RGB_height: 480
+
+
 depth_fx: 540.69
 depth_fy: 540.69
 depth_cx: 479.75
