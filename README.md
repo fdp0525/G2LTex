@@ -18,7 +18,7 @@ If you find this code useful for your reseach, please cite our work:
 
 # How to use
 
-## 1. run
+## 1. Run
 To test our algorithm. run G2LTex in command line:
 ```
 ./bin/G2LTex [DIR] [PLY] 
