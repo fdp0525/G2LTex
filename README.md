@@ -1,24 +1,38 @@
 # G2LTex
 
-This repesitory contains G2LTex, a implementation of global-to-local texture optimization for 3D Reconstruction with RGB-D Sensor based on [mvs-texturing](https://github.com/nmoehrle/mvs-texturing). More information and the paper can be found [here](http://graphvision.whu.edu.cn/).
+This repository contains an implementation of <i>Texture Mapping for 3D Reconstruction with RGB-D Sensor (CVPR2018)</i> based on [mvs-texturing](https://github.com/nmoehrle/mvs-texturing). More information and the paper can be found on [our group website](http://graphvision.whu.edu.cn/) and [Qingan's homepage](https://yanqingan.github.io/).
+
+# Publication
+If you find this code useful for your research, please cite our work:
+
+> Yanping Fu, Qingan Yan, Long Yang, Jie Liao, Chunxia Xiao. <i>Texture Mapping for 3D Reconstruction with RGB-D Sensor</i>. In CVPR. 2018.
+
+<pre><code>@inproceedings{fu2018texture,
+  title={Texture Mapping for 3D Reconstruction with RGB-D Sensor},
+  author={Fu, Yanping and Yan, Qingan and Yang, Long and Liao, Jie and Xiao, Chunxia},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={4645--4653},
+  year={2018}
+  organization={IEEE}
+}</code></pre>
 
 # How to use
 
-## 1. run
-To test our algorithm. run G2LTex in command lien:
+## 1. Run
+To test our algorithm. run G2LTex in command line:
 ```
 ./bin/G2LTex [DIR] [PLY] 
 ```
 Params explanation:
--`PLY`: The Reconstrucion model for texture mapping.
+-`PLY`: The reconstructed model for texture mapping.
 -`DIR`: The texture image directory, include rgb images, depth images, and camera trajectory.
 
-The parameters of the camera and the system can be set in the configure file.
+The parameters of the camera and the system can be set in the config file.
 ```
 Config/config.yml
 ```
 
-How install and run this code.
+How to install and run this code.
 ```
 git clone https://github.com/fdp0525/G2LTex.git
 cd G2LTex/bin
@@ -31,7 +45,7 @@ cd G2LTex/bin
 
 
 ## 3. Dependencies
-The code and the build system have the following prerequisites:
+The code has following prerequisites:
 - ubuntu 16.04
 - gcc (5.4.0)
 - OpenCV (2.4.10)
@@ -60,13 +74,11 @@ RGB_height: 1080
 .
 .
 ```
-## 5. results
-Some results are shown under the folder ```results/```.
+## 5. Results
+Some precomputed results can be found in the folder ```results/```.
 
-# Publication
-If you find this demo valuable for your reseach, please cite our work:
 
-> Y. Fu, Q. Yan, L. Yang, J. Liao and X. Chun. Texture Mapping for 3D Reconstruction with RGB-D Sensor. In CVPR. 2018.
+
 
 
 
