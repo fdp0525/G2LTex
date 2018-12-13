@@ -24,10 +24,10 @@ To test our algorithm. run G2LTex in command line:
 ./bin/G2LTex [DIR] [PLY] 
 ```
 Params explanation:
--`PLY`: The Reconstrucion model for texture mapping.
+-`PLY`: The reconstructed model for texture mapping.
 -`DIR`: The texture image directory, include rgb images, depth images, and camera trajectory.
 
-The parameters of the camera and the system can be set in the configure file.
+The parameters of the camera and the system can be set in the config file.
 ```
 Config/config.yml
 ```
@@ -75,7 +75,7 @@ RGB_height: 1080
 .
 ```
 ## 5. Results
-Some results are shown under the folder ```results/```.
+Some precomputed results can be found in the folder ```results/```.
 
 
 
