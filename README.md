@@ -1,11 +1,11 @@
 # G2LTex
 
-This repesitory contains G2LTex, a implementation of global-to-local texture optimization for 3D Reconstruction with RGB-D Sensor based on [mvs-texturing](https://github.com/nmoehrle/mvs-texturing). More information and the paper can be found [here](http://graphvision.whu.edu.cn/).
+This repesitory contains an implementation of <i>Texture Mapping for 3D Reconstruction with RGB-D Sensor (CVPR2018)</i> based on [mvs-texturing](https://github.com/nmoehrle/mvs-texturing). More information and the paper can be found [here](http://graphvision.whu.edu.cn/) and [here](https://yanqingan.github.io/).
 
 # How to use
 
 ## 1. run
-To test our algorithm. run G2LTex in command lien:
+To test our algorithm. run G2LTex in command line:
 ```
 ./bin/G2LTex [DIR] [PLY] 
 ```
@@ -18,7 +18,7 @@ The parameters of the camera and the system can be set in the configure file.
 Config/config.yml
 ```
 
-How install and run this code.
+How to install and run this code.
 ```
 git clone https://github.com/fdp0525/G2LTex.git
 cd G2LTex/bin
@@ -31,7 +31,7 @@ cd G2LTex/bin
 
 
 ## 3. Dependencies
-The code and the build system have the following prerequisites:
+The code has following prerequisites:
 - ubuntu 16.04
 - gcc (5.4.0)
 - OpenCV (2.4.10)
@@ -60,13 +60,24 @@ RGB_height: 1080
 .
 .
 ```
-## 5. results
+## 5. Results
 Some results are shown under the folder ```results/```.
 
 # Publication
-If you find this demo valuable for your reseach, please cite our work:
+If you find this code useful for your reseach, please cite our work:
 
-> Y. Fu, Q. Yan, L. Yang, J. Liao and X. Chun. Texture Mapping for 3D Reconstruction with RGB-D Sensor. In CVPR. 2018.
+> Yanping Fu, Qingan Yan, Long Yang, Jie Liao, Chunxia Xiao. <i>Texture Mapping for 3D Reconstruction with RGB-D Sensor</i>. In CVPR. 2018.
+
+<pre><code>@inproceedings{fu2018texture,
+  title={Texture Mapping for 3D Reconstruction with RGB-D Sensor},
+  author={Fu, Yanping and Yan, Qingan and Yang, Long and Liao, Jie and Xiao, Chunxia},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={4645--4653},
+  year={2018}
+  organization={IEEE}
+}</code></pre>
+
+
 
 
 
