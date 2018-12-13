@@ -2,6 +2,20 @@
 
 This repository contains an implementation of <i>Texture Mapping for 3D Reconstruction with RGB-D Sensor (CVPR2018)</i> based on [mvs-texturing](https://github.com/nmoehrle/mvs-texturing). More information and the paper can be found on [our group website](http://graphvision.whu.edu.cn/) and [my homepage](https://yanqingan.github.io/).
 
+# Publication
+If you find this code useful for your reseach, please cite our work:
+
+> Yanping Fu, Qingan Yan, Long Yang, Jie Liao, Chunxia Xiao. <i>Texture Mapping for 3D Reconstruction with RGB-D Sensor</i>. In CVPR. 2018.
+
+<pre><code>@inproceedings{fu2018texture,
+  title={Texture Mapping for 3D Reconstruction with RGB-D Sensor},
+  author={Fu, Yanping and Yan, Qingan and Yang, Long and Liao, Jie and Xiao, Chunxia},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={4645--4653},
+  year={2018}
+  organization={IEEE}
+}</code></pre>
+
 # How to use
 
 ## 1. run
@@ -63,19 +77,6 @@ RGB_height: 1080
 ## 5. Results
 Some results are shown under the folder ```results/```.
 
-# Publication
-If you find this code useful for your reseach, please cite our work:
-
-> Yanping Fu, Qingan Yan, Long Yang, Jie Liao, Chunxia Xiao. <i>Texture Mapping for 3D Reconstruction with RGB-D Sensor</i>. In CVPR. 2018.
-
-<pre><code>@inproceedings{fu2018texture,
-  title={Texture Mapping for 3D Reconstruction with RGB-D Sensor},
-  author={Fu, Yanping and Yan, Qingan and Yang, Long and Liao, Jie and Xiao, Chunxia},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  pages={4645--4653},
-  year={2018}
-  organization={IEEE}
-}</code></pre>
 
 
 
