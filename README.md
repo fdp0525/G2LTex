@@ -1,6 +1,6 @@
 # G2LTex
 
-This repository contains an implementation of <i>Texture Mapping for 3D Reconstruction with RGB-D Sensor (CVPR2018)</i> based on [mvs-texturing](https://github.com/nmoehrle/mvs-texturing). More information and the paper can be found on [our group website](http://graphvision.whu.edu.cn/) and [Qingan's homepage](https://yanqingan.github.io/).
+This repository contains the implementation of "<i>Texture Mapping for 3D Reconstruction with RGB-D Sensor (CVPR2018)</i>" based on [mvs-texturing](https://github.com/nmoehrle/mvs-texturing). Due to the agreement with other company, some parts can only be released in the form of .so files. More information and the paper can be found on [our group website](http://graphvision.whu.edu.cn/) and [Qingan's homepage](https://yanqingan.github.io/).
 
 # Publication
 If you find this code useful for your research, please cite our work:
@@ -54,7 +54,7 @@ The code has following prerequisites:
 - ubuntu 16.04
 - gcc (5.4.0)
 - OpenCV (2.4.10)
-- Eigen(>3.0)
+- Eigen (>3.0)
 - png12
 - jpeg
 
