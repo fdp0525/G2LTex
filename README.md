@@ -13,7 +13,7 @@ If you find this code useful for your research, please cite our work:
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   pages={4645--4653},
   year={2018},
-  organization={IEEE},
+  organization={IEEE}
 }</code></pre>
 
 # How to use
