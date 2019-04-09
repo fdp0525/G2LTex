@@ -12,8 +12,8 @@ If you find this code useful for your research, please cite our work:
   author={Fu, Yanping and Yan, Qingan and Yang, Long and Liao, Jie and Xiao, Chunxia},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   pages={4645--4653},
-  year={2018}
-  organization={IEEE}
+  year={2018},
+  organization={IEEE},
 }</code></pre>
 
 # How to use
