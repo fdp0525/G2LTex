@@ -45,7 +45,7 @@ We need to modify the configuration file ```config.yml``` before running the oth
 
 ## 2. Input Format
 - Color frames (color_XX.jpg): RGB, 24-bit, JPG.
-- Depth frames (depth-XX.png): depth (mm), 16-bit, PNG (invalid depth is set to 0).
+- Depth frames (depth_XX.png): depth (mm), 16-bit, PNG (invalid depth is set to 0).
 - Camera poses (color_XX.cam): world-to-camera [tx, ty, tz, R00, R01, R02, R10, R11, R12, R20, R21, R22].
 
 
